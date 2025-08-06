@@ -1,0 +1,33 @@
+ As the two team up, they soon realize that Dharmatech has infiltrated every aspect of society, from governments to tech giants. They're running out of time as Duryodhan's AI gets closer to becoming fully autonomous and could potentially be unleashed on the world, causing untold damage. With lives at stake, Yudhishthir and Arjuna must use all their wits and resources to stop Dharmatech before it's too late.
+
+
+
+Rules: 
+1. Four characters are in a room: Yudhishthir, Arjuna, an AI named Alpha, and Duryodhan.
+2. Each of them has one item. Yudhishthir has a law book, Arjuna has a drone manual, Alpha has a complex AI code, and Duryodhan has a weapon blueprint. 
+3. The room is in complete darkness except for four lights. Each light corresponds to the character's item: Law book, Drone Manual, AI Code, Weapon Blueprint. 
+4. Yudhishthir cannot see his law book but he knows it's not in Duryodhan's hand.
+5. Arjuna can see that the drone manual is near Alpha and he knows it's not with Duryodhan or Yudhishthir.
+6. The AI Code is not by itself, it is either with Yudhishthir or Arjuna.
+7. Duryodhan can't see the Weapon Blueprint but he knows it's in his own hand.
+8. Alpha doesn’t know where its code belongs.
+9. No two characters have an item of the same type (i.e., no one has a law book and another person has an AI Code).
+
+Question: Can you figure out which character is holding what based on their knowledge, while obeying the rules?
+
+
+We can begin by applying direct proof to our first clue: "Yudhishthir cannot see his law book but he knows it's not in Duryodhan's hand." This means that Yudhishthir must have the law book. 
+
+By using the property of transitivity, if Yudhishthir has the law book and Duryodhan can't be holding it, then Duryodhan is therefore left with the weapon blueprint. 
+
+We know from step2 that the weapon blueprint is in Duryodhan's hand, which means he isn’t holding a drone manual. This leaves the drone manual to either Arjuna or Alpha. 
+
+Since Yudhishthir and Duryodhan’s items have been assigned and no two characters can have an item of the same type (rule 9), we know that Arjuna must be the one holding the AI code. This leaves Alpha with the only remaining option: the drone manual. 
+
+To double-check our solution, let's apply proof by contradiction: If Alpha were to have the weapon blueprint and Duryodhan had the law book (which contradicts rule 9), then Yudhishthir would be left holding the AI code or the drone manual. But we know from step 3 that Arjuna has the AI code, so it can’t be the case that Alpha was given the weapon blueprint. Therefore, our initial assignment is correct.
+
+Answer: 
+Yudhishthir has the Law book. 
+Arjuna has the Drone Manual. 
+Alpha has the AI Code. 
+Duryodhan has the Weapon Blueprint. 
